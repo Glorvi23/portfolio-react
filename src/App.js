@@ -1,14 +1,17 @@
 import React from "react";
 import { HashRouter as Router, Route, Switch } from "react-router-dom";
-import Project from "./components/Project/Project"
+import Portfolio from "./pages/Portfolio/Portfolio";
+import Contact from "./pages/Contact/Contact";
+import Home from "./pages/Home/Home"
 
 function App() {
   return (
     <div>
       <Router basename="/">
         <Switch>
-          <Route exact path ="/" component={Project}/>
-          {/* <Route path="" */}
+          <Route exact path ="/" component={Home}/>
+          <Route path="/contact" component={Contact}/>
+          <Route path="/portfolio" component={Portfolio}/>
         </Switch>
       </Router>
     </div>
