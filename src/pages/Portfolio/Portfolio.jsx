@@ -1,6 +1,6 @@
 import React from "react";
 import Project from "../../components/Project/Project";
-import { db } from "./db";
+import db from "./db";
 import Footer from "../../components/Footer/Footer";
 import Header from "../../components/Header/Header";
 import { Row, Col, Container } from "react-bootstrap";
