@@ -14,7 +14,7 @@ import {
 const Footer = () => {
   return (
     <div>
-      <Navbar fixed="bottom">
+      <Navbar>
         <p>&#169; Copyright</p>
       </Navbar>
     </div>

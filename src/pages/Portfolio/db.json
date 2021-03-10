@@ -4,23 +4,23 @@
     "title": "The Literate Listener",
     "deployLink": "",
     "gitHubRep": "https://github.com/Glorvi23/literate-listener",
-    "img": "./img/screenshot.png",
-    "description": "Some quick example text to build on the card title and make up the bulk of the card's content."
+    "laugh": "./img/screenshot.png",
+    "description": "Away to find more information on an artist or Book!"
   },
   {
     "id": 2,
     "title": "FreshDev",
     "deployLink": "",
     "gitHubRep": "https://github.com/Glorvi23/fresh-dev",
-    "img": "./img/screenshot.png",
-    "description": "Some quick example text to build on the card title and make up the bulk of the card's content."
+    "laugh": "./img/screenshot.png",
+    "description": "A way for recruiter to find the perfect employees after they graduate."
   },
   {
     "id": 3,
-    "title": "The Literate Listener",
+    "title": "Community Chest",
     "deployLink": "",
-    "gitHubRep": "https://github.com/Glorvi23/literate-listener",
-    "img": "./screenshot.png",
-    "description": "Some quick example text to build on the card title and make up the  bulk of the card's content."
+    "gitHubRep": "https://github.com/Glorvi23/community-chest",
+    "laugh": "./screenshot.png",
+    "description": "Allows for admins to create/manage a fridge in the community for the less fortunate."
   }
 ]
