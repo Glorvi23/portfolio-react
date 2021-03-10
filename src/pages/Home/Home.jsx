@@ -13,21 +13,41 @@ const Home = () => {
           <Container lg={8} className="bg-white">
             <Row>
               <Col>
-                About Me
+                <h1>About Me</h1>
                 <hr></hr>
                 <Row>
                   <Col>
-                    <img src={img} alt="Bio Picture" className="float-left" />
-                    <p>
-                      Caleb Glorvigen is currently enrolled at Web Programming
-                      bootcamp through Georgia Tech until March. He has a
-                      Bachelors in Computer Science and a minor in graphic
-                      design. He is looking to start a career in Web Development
-                      to gain valuable hands on experience and to further his
-                      coding knowledge. When he is not spending his time on
-                      coding, he is enjoying the gym, playing sports, and
-                      running.
-                    </p>
+                    <div
+                      style={{
+                        display: "flex",
+                      }}
+                    >
+                      <div>
+                        <img
+                          src={img}
+                          width={150}
+                          alt="Bio Picture"
+                          className="float-left"
+                        />
+                      </div>
+                      <div>
+                        <p
+                          style={{
+                            "margin-left": "5px",
+                            "text-align": "justify",
+                          }}
+                        >
+                          Caleb Glorvigen is currently enrolled at Web
+                          Programming bootcamp through Georgia Tech until March.
+                          He has a Bachelors in Computer Science and a minor in
+                          graphic design. He is looking to start a career in Web
+                          Development to gain valuable hands on experience and
+                          to further his coding knowledge. When he is not
+                          spending his time on coding, he is enjoying the gym,
+                          playing sports, and running.
+                        </p>
+                      </div>
+                    </div>
                   </Col>
                 </Row>
               </Col>

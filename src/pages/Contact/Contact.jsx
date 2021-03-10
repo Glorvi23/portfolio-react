@@ -13,7 +13,7 @@ const Contact = () => {
             <Container lg={8} className="bg-white">
               <Row>
                 <Col>
-                  Contact
+                  <h1>Contact</h1>
                   <hr></hr>
                   <Row>
                     <Col>

@@ -13,10 +13,10 @@ import {
 
 const Footer = () => {
   return (
-    <div>
-      <Navbar>
-        <p>&#169; Copyright</p>
-      </Navbar>
+    <div style={{"margin-top": "15px","background-color": "grey", "text-align": "center"}}>
+      {/* <Navbar> */}
+        <p style={{"text-align": "center"}}>&#169; 2021</p>
+      {/* </Navbar> */}
     </div>
   );
 };

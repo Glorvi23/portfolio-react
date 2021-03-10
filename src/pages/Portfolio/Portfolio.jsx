@@ -19,7 +19,9 @@ const Portfolio = () => {
           <Container lg={8} className="bg-white">
             <Row>
               <Col lg>
-                Portfolio page
+                <h1>Portfolio</h1>
+                <p>Please click on the project buttons to be brought to their repositories.</p>
+                <hr></hr>
                 <Row>
                   <Col>
                     {db.map((item) => {
