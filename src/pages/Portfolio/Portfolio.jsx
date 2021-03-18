@@ -14,20 +14,23 @@ const Portfolio = () => {
   return (
     <>
       <Header />
-      <Row>
-        <Col>
-          <Container lg={8} className="bg-white">
+      {/* <Row> */}
+      {/* <Col> */}
+      <Container lg={8} className="bg-white">
+        <Row>
+          <Col lg>
+            <h1>Portfolio</h1>
+            <p>
+              Please click on the project buttons to be brought to their
+              repositories.
+            </p>
+            <hr></hr>
             <Row>
-              <Col lg>
-                <h1>Portfolio</h1>
-                <p>Please click on the project buttons to be brought to their repositories.</p>
-                <hr></hr>
-                <Row>
-                  <Col>
-                    {db.map((item) => {
-                      return <Project key={item.id} {...item} />;
-                    })}
-                    {/* <Card className="float-left" style={{ width: "18rem" }}>
+              <Col xs={12} style={{ textAlign: "center" }}>
+                {db.map((item) => {
+                  return <Project key={item.id} {...item} />;
+                })}
+                {/* <Card className="float-left" style={{ width: "18rem" }}>
                       <Card.Img
                         variant="top"
                         src={db[0].laugh}
@@ -46,13 +49,13 @@ const Portfolio = () => {
                         </a>
                       </Card.Body>
                     </Card> */}
-                  </Col>
-                </Row>
               </Col>
             </Row>
-          </Container>
-        </Col>
-      </Row>
+          </Col>
+        </Row>
+      </Container>
+      {/* </Col>
+      </Row> */}
       <Footer />
     </>
   );
