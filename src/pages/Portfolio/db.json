@@ -2,7 +2,7 @@
   {
     "id": 1,
     "title": "The Literate Listener",
-    "deployLink": "",
+    "deployLink": "https://glorvi23.github.io/literate-listener/",
     "gitHubRep": "https://github.com/Glorvi23/literate-listener",
     "laugh": "./img/screenshot.png",
     "description": "Away to find more information on an artist or Book!"
@@ -10,7 +10,7 @@
   {
     "id": 2,
     "title": "FreshDev",
-    "deployLink": "",
+    "deployLink": "https://fresh-dev.herokuapp.com/",
     "gitHubRep": "https://github.com/Glorvi23/fresh-dev",
     "laugh": "./img/screenshot.png",
     "description": "A way for recruiter to find the perfect employees after they graduate."
@@ -18,7 +18,7 @@
   {
     "id": 3,
     "title": "Community Chest",
-    "deployLink": "",
+    "deployLink": "https://community-chest134.herokuapp.com/",
     "gitHubRep": "https://github.com/Glorvi23/community-chest",
     "laugh": "./screenshot.png",
     "description": "Allows for admins to create/manage a fridge in the community for the less fortunate."
