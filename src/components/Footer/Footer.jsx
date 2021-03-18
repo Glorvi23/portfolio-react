@@ -13,11 +13,11 @@ import {
 
 const Footer = () => {
   return (
-    <div style={{"margin-top": "15px","background-color": "grey", "text-align": "center"}}>
+    <footer style={{"margin-top": "15px","background-color": "black", "text-align": "center"}}>
       {/* <Navbar> */}
-        <p style={{"text-align": "center"}}>&#169; 2021</p>
+        <p style={{ color: "white","text-align": "center"}}>&#169; 2021 Caleb Glorvigen</p>
       {/* </Navbar> */}
-    </div>
+    </footer>
   );
 };
 
