@@ -45,13 +45,13 @@ const Home = () => {
                         "text-align": "justify",
                       }}
                     >
-                      Caleb Glorvigen is currently enrolled at Web Programming
-                      bootcamp through Georgia Tech until March. He has a
+                      I recently obtained a Full Stack Development boocamp
+                      certificate from the Georgia Institue of Technology. I also have a
                       Bachelors in Computer Science and a minor in graphic
-                      design. He is looking to start a career in Web Development
-                      to gain valuable hands on experience and to further his
-                      coding knowledge. When he is not spending his time on
-                      coding, he is enjoying the gym, playing sports, and
+                      design. I am looking to start a career in Web Development
+                      to gain valuable hands on experience and to further my
+                      coding knowledge. When I am not spending time on
+                      coding, I enjoy working out at the gym, playing sports, and
                       running.
                     </p>
                   </div>
