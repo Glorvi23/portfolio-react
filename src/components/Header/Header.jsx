@@ -1,6 +1,6 @@
 import React from 'react';
 import { Row, Col, Container, Navbar, Nav, NavDropdown, Form, Button, FormControl} from "react-bootstrap";
-
+import resume from '../../img/resume.pdf';
 
 const Header = () => {
     return (
@@ -14,6 +14,8 @@ const Header = () => {
             <Nav.Link href="#/">About</Nav.Link>
             <Nav.Link href="#contact">Contact</Nav.Link>
             <Nav.Link href="#portfolio">Portfolio</Nav.Link>
+            <Nav.Link href={resume}>Resume</Nav.Link>
+
             {/* <NavDropdown title="Dropdown" id="basic-nav-dropdown">
               <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
               <NavDropdown.Item href="#action/3.2">
